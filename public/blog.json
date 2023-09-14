@@ -1,0 +1,72 @@
+[
+  {
+    "id": 1,
+    "cover": "https://picsum.photos/1280/720",
+    "title": "10 Tips for Writing a Great Blog Post",
+    "authorImg": "https://picsum.photos/200/300",
+    "authorName": "John Doe",
+    "postedTime": "2023-09-14T14:04:26.666Z",
+    "readingTime": 5,
+    "hashtags": ["blogging", "writing", "tips"]
+  },
+  {
+    "id": 2,
+    "cover": "https://picsum.photos/1280/720",
+    "title": "How to Use SEO to Get More Traffic to Your Blog",
+    "authorImg": "https://picsum.photos/200/300",
+    "authorName": "Jane Doe",
+    "postedTime": "2023-09-14T14:04:26.666Z",
+    "readingTime": 10,
+    "hashtags": ["seo", "traffic", "blogging"]
+  },
+  {
+    "id": 3,
+    "cover": "https://picsum.photos/1280/720",
+    "title": "The Best Blogging Tools for Beginners",
+    "authorImg": "https://picsum.photos/200/300",
+    "authorName": "Mike Smith",
+    "postedTime": "2023-09-14T14:04:26.666Z",
+    "readingTime": 7,
+    "hashtags": ["blogging", "tools", "beginners"]
+  },
+  {
+    "id": 4,
+    "cover": "https://picsum.photos/1280/720",
+    "title": "How to Create a Successful Blog Niche",
+    "authorImg": "https://picsum.photos/200/300",
+    "authorName": "Sarah Johnson",
+    "postedTime": "2023-09-14T14:04:26.666Z",
+    "readingTime": 8,
+    "hashtags": ["blogging", "niche", "success"]
+  },
+  {
+    "id": 5,
+    "cover": "https://picsum.photos/1280/720",
+    "title": "10 Ways to Monetize Your Blog",
+    "authorImg": "https://picsum.photos/200/300",
+    "authorName": "Chris Williams",
+    "postedTime": "2023-09-14T14:04:26.666Z",
+    "readingTime": 12,
+    "hashtags": ["blogging", "monetization", "income"]
+  },
+  {
+    "id": 6,
+    "cover": "https://picsum.photos/1280/720",
+    "title": "How to Promote Your Blog and Get More Traffic",
+    "authorImg": "https://picsum.photos/200/300",
+    "authorName": "Mary Jones",
+    "postedTime": "2023-09-14T14:04:26.666Z",
+    "readingTime": 9,
+    "hashtags": ["blogging", "promotion", "traffic"]
+  },
+  {
+    "id": 7,
+    "cover": "https://picsum.photos/1280/720",
+    "title": "How to Build a Strong Blog Community",
+    "authorImg": "https://picsum.photos/200/300",
+    "authorName": "David Brown",
+    "postedTime": "2023-09-14T14:04:26.666Z",
+    "readingTime": 6,
+    "hashtags": ["blogging", "community", "engagement"]
+  }
+]
