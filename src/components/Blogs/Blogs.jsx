@@ -1,13 +1,15 @@
 import { useEffect, useState } from "react";
 import Blog from "../Blog/Blog";
 
-const Blogs = () => {
+const Blogs = ({ handleAddToBookmark }) => {
   const [blogs, setBlogs] = useState([]);
   useEffect(() => {
     fetch("blog.json")
       .then((response) => response.json())
       .then((data) => setBlogs(data));
   }, []);
+
+  console.log(handleAddToBookmark);
 
   return (
     <div className="md:w-2/3">
@@ -17,7 +19,11 @@ const Blogs = () => {
 
       <div className="grid lg:grid-cols-3">
         {blogs.map((blog) => (
-          <Blog key={blog.id} blog={blog}></Blog>
+          <Blog
+            key={blog.id}
+            blog={blog}
+            handleAddToBookmark={() => handleAddToBookmark(blog)}
+          ></Blog>
         ))}
       </div>
     </div>

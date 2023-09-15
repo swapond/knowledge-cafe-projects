@@ -1,5 +1,5 @@
 import PropTypes from "prop-types";
-const Blog = ({ blog }) => {
+const Blog = ({ blog, handleAddToBookmark }) => {
   const {
     cover,
     title,
@@ -23,8 +23,13 @@ const Blog = ({ blog }) => {
           <img src={authorImg} alt="#" className="w-8 h-8 rounded-full" />
           <p className="text-gray-700 text-sm ml-2">{authorName}</p>
         </div>
+
         <p className="text-gray-500 text-sm mt-1">
-          {postedTime} • {readingTime} min read
+          {postedTime} • {readingTime} min read •{" "}
+          <button className="font-bold" onClick={handleAddToBookmark}>
+            {" "}
+            Bookmark
+          </button>
         </p>
         <div className="mt-4">
           <ul className="flex">
